@@ -1,0 +1,19 @@
+# Maven Files
+target/
+.settings/
+.classpath
+.project
+
+# Java Compiled Files
+*.class
+*.iml
+
+# Python Compiled Files
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# System Files
+.DS_Store
