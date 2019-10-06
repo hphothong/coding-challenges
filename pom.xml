@@ -25,6 +25,15 @@
 
   <dependencyManagement>
     <dependencies>
+      <!-- External dependencies -->
+      <dependency>
+          <groupId>com.google.guava</groupId>
+          <artifactId>guava</artifactId>
+          <version>28.1-jre</version>
+      </dependency>
+      <!-- End external dependencies -->
+
+      <!-- Test dependencies -->
       <dependency>
           <groupId>junit</groupId>
           <artifactId>junit</artifactId>
@@ -37,6 +46,7 @@
         <version>2.1</version>
         <scope>test</scope>
       </dependency>
+      <!-- End test dependencies -->
     </dependencies>
   </dependencyManagement>
 </project>
