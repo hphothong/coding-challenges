@@ -3,6 +3,7 @@ package com.hphothong.coding.challenges.problem1;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+import org.junit.Before;
 import java.util.List;
 import com.google.common.collect.Lists;
 
@@ -10,7 +11,7 @@ public class Problem1Test {
 
     private Problem1 instance;
 
-    @Override
+    @Before
     public void setUp() {
         instance = new Problem1();
     }
