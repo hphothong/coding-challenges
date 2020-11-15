@@ -17,3 +17,6 @@ __pycache__/
 
 # System Files
 .DS_Store
+
+# Node
+node_modules/
