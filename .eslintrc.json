@@ -18,7 +18,9 @@
       {
         "ts": "never"
       }
-    ]
+    ],
+    "no-plusplus": "off",
+    "no-continue": "off"
   },
   "settings": {
     "import/resolver": {
